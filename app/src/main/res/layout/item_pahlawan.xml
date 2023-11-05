@@ -7,10 +7,13 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
         app:cardCornerRadius="8dp"
-        app:cardElevation="4dp"
-        app:cardUseCompatPadding="true"
-        android:layout_margin="8dp">
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -27,7 +30,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:cardCornerRadius="10dp"
-                    app:cardElevation="4dp">
+                    app:cardElevation="20dp">
 
                     <FrameLayout
                         android:layout_width="100dp"
@@ -55,9 +58,9 @@
                         android:id="@+id/nama_pahlawan"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
                         android:fontFamily="@font/poppins_extrabold"
                         android:text="Nama Pahlawan"
-                        android:layout_marginBottom="10dp"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -65,9 +68,9 @@
                         android:id="@+id/tanggal_lahir_pahlawan"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
                         android:fontFamily="@font/poppins_semibold"
                         android:text="Tanggal Lahir Pahlawan"
-                        android:layout_marginBottom="10dp"
                         android:textSize="15sp" />
 
                     <TextView
@@ -86,8 +89,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/info_biodata"
-                android:fontFamily="@font/poppins_light"
                 android:layout_marginTop="16dp"
+                android:fontFamily="@font/poppins_light"
                 android:text="Deskripsi Singkat"
                 android:textSize="14sp" />
 

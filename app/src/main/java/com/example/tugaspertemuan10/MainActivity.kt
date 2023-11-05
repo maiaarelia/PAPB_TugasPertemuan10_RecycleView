@@ -28,10 +28,12 @@ class MainActivity : AppCompatActivity() {
     private fun generateDummy(): List<Pahlawan> {
         val deskripsiKartini: String = resources.getString(R.string.desk_kartini)
         val deskripsiDewantara: String = resources.getString(R.string.desk_dewantara)
+        val deskripsiPattimura: String = resources.getString(R.string.desk_pattimura)
 
         return listOf(
             Pahlawan("Kartini", "Pahlawan Nasional", "21 April 1879", deskripsiKartini, R.drawable.kartini),
-            Pahlawan("Ki Hajar Dewantara", "Pahlawan Nasional", "2 Mei 1889", deskripsiDewantara, R.drawable.dewantara)
+            Pahlawan("Ki Hajar Dewantara", "Pahlawan Nasional", "2 Mei 1889", deskripsiDewantara, R.drawable.dewantara),
+            Pahlawan("Thomas Matulessy", "Pahlawan Nasional", "8 Juni 1783 ", deskripsiPattimura, R.drawable.pattimura)
         )
     }
 }

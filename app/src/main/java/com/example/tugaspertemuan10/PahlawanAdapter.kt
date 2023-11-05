@@ -24,6 +24,7 @@ class PahlawanAdapter(private val listPahlawan: List<Pahlawan>, private val onCl
                 val gambar_pahlawan = when (data.gambarPahlawan) {
                     R.drawable.kartini -> R.drawable.kartini
                     R.drawable.dewantara -> R.drawable.dewantara
+                    R.drawable.pattimura -> R.drawable.pattimura
                     else -> R.drawable.default_image
 
                 }
